@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="main-content">
+    <nav>
+      <div class="my-logo">
+        <h2 class="sub-heading">Shivam Sengar</h2>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li data-id="home">Home</li>
+          <li data-id="about">About</li>
+          <li data-id="skills">Skills</li>
+          <li data-id="portfolio">Portfolio</li>
+          <li data-id="contact">Contact</li>
+        </ul>
+      </div>
+    </nav>
+    <header class="section header sec1" id="home">
+      <div class="my-photo">
+        <img src="/img/my_image.jpeg" alt="my_image" />
+      </div>
+      <div class="bio">
+        <h1 class="name main-heading">Shivam Sengar</h1>
+        <p class="sub-heading">
+          Hey, I am React Developer with a deep love for building dynamic and responsive web applications.
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="section sec2" id="about">
+        <h2 class="secondary-heading">About me</h2>
+        <div class="about-left">
+          <p class="content">
+            Over my 2+ years in the web development industry, I have undertaken
+            a diverse range of projects, spanning from small, simple websites to
+            large, complex ones. I have consistently delivered top-notch
+            projects within the given timeframe, and this has fueled my
+            motivation to take on even more challenging assignments. Greetings,
+            I am Prashant Bhardwaj, a dedicated Frontend Developer from India
+            with a Bachelor's degree in Computer Science. My main goal is to
+            help you establish a strong online presence through
+            industry-standard design and comprehensive functionality, enabling
+            you to operate seamlessly in the digital space. Don't hesitate to
+            contact me for any inquiries or to discuss your project further.
+            Please find my resume attached below for your reference.
+          </p>
+        </div>
+        <div class="about-right"></div>
+      </section>
+      <div class="section sec3" id="skills">
+        <h2 class="secondary-heading">Skills</h2>
+        <p class="sub-heading">Highlighting my abilities and expertise</p>
+        <div class="skill-container"></div>
+      </div>
+      <section class="section sec4" id="portfolio">
+        <h2 class="secondary-heading">Projects</h2>
+        <p class="sub-heading">
+          Check out some of the projects I recently worked on. Use the buttons
+          to toggle the different categories
+        </p>
+        <div class="projects-container"></div>
+      </section>
+      <section class="section sec6" id="contact">
+        <div class="contact-left">
+          <h2 class="secondary-heading">Get in touch</h2>
+          <div class="social-links">
+            <div class="btn">
+              <a href="mailto:shivamsengar995627@gmail.com">
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+            </div>
+            <div class="btn">
+              <a href="">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <h2 class="secondary-heading">
+            Feel free to fill the form
+          </h2>
+          <form action="">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+            /><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email Address"
+            /><br />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="7"
+              placeholder="Your Message Here....."
+            ></textarea
+            ><br />
+            <input
+              type="submit"
+              id="submit"
+              name="submit"
+              value="Submit"
+              class="btn"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div class="controls">
+      <div class="control active-btn" data-id="home">
+        <i class="fas fa-home"></i>
+      </div>
+      <div class="control" data-id="about">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="control" data-id="skills">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="control" data-id="portfolio">
+        <i class="fas fa-briefcase"></i>
+      </div>
+      <div class="control" data-id="contact">
+        <i class="fas fa-envelope-open"></i>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/546bde5741.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
