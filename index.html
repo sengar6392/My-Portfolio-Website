@@ -8,15 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   </head>
   <body class="main-content">
     <nav>
       <div class="my-logo">
-        <h2 class="sub-heading">Shivam Sengar</h2>
+        <h2>Shivam <span>Sengar</span></h2>
       </div>
       <div class="nav-links">
         <ul>
@@ -29,14 +30,29 @@
       </div>
     </nav>
     <header class="section header sec1" id="home">
-      <div class="my-photo">
-        <img src="/img/my_image.jpeg" alt="my_image" />
+      <div class="container">
+        <div class="bio">
+          <h1 class="main-heading">Frontend-End React Developer</h1>
+          <p class="sub-heading">Hi, I am Shivam Sengar. A passionate Front-End React Developer</p>
+        </div>
+        <div class="my-photo">
+          <img src="/img/my_image2.png" alt="my_image" />
+        </div>
       </div>
-      <div class="bio">
-        <h1 class="name main-heading">Shivam Sengar</h1>
-        <p class="sub-heading">
-          Hey, I am React Developer with a deep love for building dynamic and responsive web applications.
-        </p>
+      <div class="skill-icons">
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-js"></i>
+        <i class="fab fa-react"></i>
+        <!-- <i class=""></i>
+        <i class=""></i>
+        <i class=""></i> -->
+      </div>
+      <div class="download btn">
+        <a href="./my_cv/Shivam_Singh Sengar_Resume_10-10-2022-12-17-54 (1).pdf"
+          download="Shivam Sengar CV"
+          >Download CV</a
+        >
+        <i class="fa-solid fa-download"></i>
       </div>
     </header>
     <main>
@@ -90,21 +106,21 @@
           </div>
         </div>
         <div class="contact-right">
-          <h2 class="secondary-heading">
-            Feel free to fill the form
-          </h2>
-          <form action="">
+          <h2 class="secondary-heading">Feel free to fill the form</h2>
+          <form action="https://formspree.io/f/xeqbqlob" method="POST">
             <input
               type="text"
               id="name"
               name="name"
               placeholder="Your Name"
+              required
             /><br />
             <input
               type="email"
               id="email"
               name="email"
               placeholder="Your Email Address"
+              required
             /><br />
             <textarea
               name="message"
@@ -112,19 +128,17 @@
               cols="30"
               rows="7"
               placeholder="Your Message Here....."
+              required
             ></textarea
             ><br />
-            <input
-              type="submit"
-              id="submit"
-              name="submit"
-              value="Submit"
-              class="btn"
-            />
+            <button type="submit" id="submit" name="submit" class="btn">
+              Submit
+            </button>
           </form>
         </div>
       </section>
     </main>
+    <footer></footer>
 
     <div class="controls">
       <div class="control active-btn" data-id="home">

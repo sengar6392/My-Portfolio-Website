@@ -1,22 +1,25 @@
 export const data={
   "projects": [
     {
-      "title": "Project 1",
-      "description": "A brief description of project 1.",
-      "image": "project1.jpg",
-      "url": "https://geekyprashant.com/images/responsive%20netflix-clone.png"
+      "title": "Youtube Clone",
+      "description": "Built using React Js, Rapid API, Material UI",
+      "image": "./img/youtube clone photo.png",
+      "netlifyLink":"https://shivam-sengar-youtube-clone.netlify.app/",
+      "githubLink":"https://github.com/sengar6392/Youtube-Clone"
     },
     {
       "title": "Project 2",
       "description": "A brief description of project 2.",
-      "image": "project2.jpg",
-      "url": "https://geekyprashant.com/images/multipage-responsive-facebook-clone.png"
+      "image": "./img/youtube clone photo.png",
+      "netlifyLink":"https://shivam-sengar-youtube-clone.netlify.app/",
+      "githubLink":"https://github.com/sengar6392/Youtube-Clone"
     },
     {
       "title": "Project 3",
       "description": "A brief description of project 3.",
-      "image": "project3.jpg",
-      "url": "https://geekyprashant.com/images/responsive-nike-clone.png"
+      "image": "./img/youtube clone photo.png",
+      "netlifyLink":"https://shivam-sengar-youtube-clone.netlify.app/",
+      "githubLink":"https://github.com/sengar6392/Youtube-Clone"
     }
   ],
   "skills": [
