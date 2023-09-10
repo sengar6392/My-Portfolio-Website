@@ -208,13 +208,34 @@ section {
 }
 
 #about {
-  text-align: center;
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 1rem 4rem;
+  justify-content: center;
+  padding: 1rem 15rem;
 }
-#about p {
+#about .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#about .container .about-left {
+  padding: 1rem;
+}
+#about .container .about-left i {
+  font-size: 15rem;
+  color: white;
+  background-color: var(--color-secondary);
+  padding: 1rem;
+  border-radius: 2rem;
+}
+#about .container .about-right {
+  padding: 1rem;
+  text-align: start;
+  min-width: auto;
+}
+#about .container .about-right h2 {
+  margin-bottom: 1rem;
+}
+#about .container .about-right p {
   font-size: 1rem;
 }
 
@@ -399,6 +420,9 @@ section {
   #about {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  #about .container .about-left {
+    display: none;
   }
   #skills .skill-container {
     grid-template-columns: repeat(2, 8rem);
