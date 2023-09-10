@@ -117,6 +117,7 @@ nav .nav-links ul {
 }
 nav .nav-links ul li {
   color: var(--color-white);
+  text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
   cursor: pointer;
@@ -168,6 +169,7 @@ nav .nav-links ul li {
 }
 .header .skill-icons {
   display: flex;
+  padding: 1rem;
   gap: 1rem;
   justify-content: center;
 }
